@@ -29,7 +29,6 @@
 .about-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  /* background: linear-gradient(218deg, #F9F9F9 0%, #F9F9F9 0%, #9E8A8A 0%, #502ECA 100%); */
   color: #fff;
 }
 
