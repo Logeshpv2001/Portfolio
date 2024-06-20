@@ -48,7 +48,7 @@
   color: blue;
   background-color: #fff;
   border-radius: 1rem;
-  box-shadow: inset 0 0 0 0 blue;
+  box-shadow: inset 0 0 0 0 red;
   transition: ease-out 0.3s;
   font-size: 1rem;
   outline: none;
@@ -56,7 +56,7 @@
 }
 
 .btn:hover {
-  box-shadow: inset 300px 0 0 0 blue;
+  box-shadow: inset 300px 0 0 0 red;
   cursor: pointer;
   color: #fff;
 }
