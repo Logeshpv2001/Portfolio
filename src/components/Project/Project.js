@@ -6,7 +6,8 @@ import { styled } from "@mui/material/styles";
 
 import CRM from "../../images/CRM.png";
 import lvfood from "../../images/LVFood.png";
-import Shopping from "../../images/Shoopingcart.png";
+// import Shopping from "../../images/Shoopingcart.png";
+import formik from "../../images/Formik.png";
 import redux from "../../images/reactredux.png";
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -131,19 +132,18 @@ export default function Project() {
           </div>
         </div>
         <div className="box">
-          <img src={Shopping} alt="" />
+          <img src={formik} alt="" />
 
           <div className="overlay">
-            <h3>Shopping Cart</h3>
+            <h3>Library Management</h3>
             <p>
-            The MERN Shopping Cart users to add and remove items from the
-            cart.
+            The MERN admin dashboard for a library management system that allows users to manage book and author details
             </p>
             <BootstrapTooltip title="frontend source code">
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Logeshpv2001/Shopping-cart-task.git"
+                  href="https://github.com/Logeshpv2001/React-Formik-Validation-app.git"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -156,7 +156,7 @@ export default function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://neon-cannoli-491729.netlify.app/"
+                  href="https://poetic-tanuki-f61282.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
