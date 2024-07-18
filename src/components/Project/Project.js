@@ -5,8 +5,8 @@ import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import { styled } from "@mui/material/styles";
 
 import CRM from "../../images/CRM.png";
-import shoopingcart from "../../images/Shooping cart.png";
-import formik from "../../images/Formik.png";
+import lvfood from "../../images/LVFood.png";
+import Shopping from "../../images/Shoopingcart.png";
 import redux from "../../images/reactredux.png";
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -96,15 +96,50 @@ export default function Project() {
           </div>
         </div>
         <div className="box">
-          <img src={shoopingcart} alt="name" />
+          <img src={lvfood} alt="name" />
+
+          <div className="overlay">
+            <h3>lv Food's</h3>
+            <p>
+            food ordering website / app using React JS, MongoDB, Express, Node JS and Stripe payment gateway. I
+            </p>
+            <BootstrapTooltip title="Frontend source code">
+              <button>
+                {" "}
+                <a
+                  href="https://github.com/Logeshpv2001/Lv-s-Food"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrGithub className="project-icons" />
+                </a>
+              </button>
+            </BootstrapTooltip>
+
+            <BootstrapTooltip title="Live Demo">
+              <button>
+                {" "}
+                <a
+                  href="https://lvsfoods.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrLink className="project-icons" />
+                </a>
+              </button>
+            </BootstrapTooltip>
+          </div>
+        </div>
+        <div className="box">
+          <img src={Shopping} alt="" />
 
           <div className="overlay">
             <h3>Shopping Cart</h3>
             <p>
-              The MERN Shopping Cart users to add and remove items from the
-              cart.
+            The MERN Shopping Cart users to add and remove items from the
+            cart.
             </p>
-            <BootstrapTooltip title="Frontend source code">
+            <BootstrapTooltip title="frontend source code">
               <button>
                 {" "}
                 <a
@@ -122,42 +157,6 @@ export default function Project() {
                 {" "}
                 <a
                   href="https://neon-cannoli-491729.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <GrLink className="project-icons" />
-                </a>
-              </button>
-            </BootstrapTooltip>
-          </div>
-        </div>
-        <div className="box">
-          <img src={formik} alt="" />
-
-          <div className="overlay">
-            <h3>Formik Validation</h3>
-            <p>
-              an admin dashboard for a library management system that allows
-              users to manage book and author details
-            </p>
-            <BootstrapTooltip title="frontend source code">
-              <button>
-                {" "}
-                <a
-                  href="https://github.com/Logeshpv2001/React-Formik-Validation-app.git"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <GrGithub className="project-icons" />
-                </a>
-              </button>
-            </BootstrapTooltip>
-
-            <BootstrapTooltip title="Live Demo">
-              <button>
-                {" "}
-                <a
-                  href="https://poetic-tanuki-f61282.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
