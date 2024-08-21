@@ -37,28 +37,24 @@ export default function Project() {
 
           <div className="overlay">
             <h3>Customer Relationship Management </h3>
-            <p>
-              The MERN CRM Website Created using React.js (for front-end)
-              Node.js (for back-end) and it connected and stored datas in
-              Mongodb Atlas.
-            </p>
+           
             <BootstrapTooltip title="Frontend source code">
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Logeshpv2001/CRM-Frontend.git"
+                  href="https://github.com/Logeshpv2001/MERN_Ecommerce.git"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <GrGithub className="project-icons" />
                 </a>
-                <a
+                {/* <a
                   href="https://crm-ecommerce-admin.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <GrGithub className="project-icons" />
-                </a>
+                </a> */}
               </button>
             </BootstrapTooltip>
 
@@ -66,7 +62,7 @@ export default function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Logeshpv2001/CRM-Backend.git"
+                  href="https://github.com/Logeshpv2001/MERN_Ecommerce.git"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -79,14 +75,14 @@ export default function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://crm-ecommerce-frontend-new.vercel.app/"
+                  href="https://mern-ecommerce-frontend-kw36.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <GrLink className="project-icons" />
                 </a>
                 <a
-                  href="https://crm-ecommerce-admin-h6s0tq8f6-logeshpv08s-projects.vercel.app/"
+                  href="https://mern-ecommerce-admin-b1i8.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -94,21 +90,25 @@ export default function Project() {
                 </a>
               </button>
             </BootstrapTooltip>
+            <p>
+            Developed a specialized E-commerce platform for the textile industry with two distinct panels: an 
+Admin panel for managing products (adding and removing items) and a user interaction panel where 
+customers can register, log in, and make purchases. Implemented secure authentication for both 
+registration and login processes, ensuring user data protection and a seamless shopping experience. 
+            </p>
           </div>
         </div>
         <div className="box">
           <img src={lvfood} alt="name" />
 
           <div className="overlay">
-            <h3>lv Food's</h3>
-            <p>
-            food ordering website / app using React JS, MongoDB, Express, Node JS and Stripe payment gateway. I
-            </p>
+            <h3>Food Delivery App</h3>
+           
             <BootstrapTooltip title="Frontend source code">
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Logeshpv2001/Lv-s-Food"
+                  href="https://github.com/Logeshpv2001/food-del.git"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -121,7 +121,14 @@ export default function Project() {
               <button>
                 {" "}
                 <a
-                  href="https://lvsfoods.vercel.app/"
+                  href="https://food-del-frontend-p1nr.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrLink className="project-icons" />
+                </a>
+                <a
+                  href="https://food-del-admin-0drg.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -129,6 +136,12 @@ export default function Project() {
                 </a>
               </button>
             </BootstrapTooltip>
+            <p>
+            Developed a food delivery application using React.js, featuring a responsive and intuitive UI for 
+browsing restaurants, viewing menus, and placing orders. Implemented local state management for 
+dynamic user interactions and real-time updates. Enhanced user experience with search and filter 
+options, ensuring cross-platform compatibility. 
+            </p>
           </div>
         </div>
         <div className="box">
