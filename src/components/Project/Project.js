@@ -188,18 +188,15 @@ registration and login processes, ensuring user data protection and a seamless s
           <img src={redux} alt="" />
 
           <div className="overlay">
-            <h3>React Redux App</h3>
+            <h3>To-Do List Application</h3>
             <p>
-              A React Redux App made with a MERN Stack (MongoDB, Express,
-              React.js, and Node.js) it will Increase or Decrease the per unit
-              Quantity that will automatically updates the total Quantity and
-              Amount.
+            Developed a simple and intuitive To-Do List application using React.js. The application allows users to manage their tasks efficiently by adding new to-do items, marking items as complete, and deleting tasks. Users can easily input tasks through a text box, with added tasks displayed in a list format. Each task can be marked as complete with a checkbox or removed using a delete button, providing a seamless and organized task management experience.
             </p>
             <BootstrapTooltip title="frontend source code">
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Logeshpv2001/React-redux-app-2.git"
+                  href="https://github.com/Logeshpv2001/Todo-List-Main.git"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -212,7 +209,7 @@ registration and login processes, ensuring user data protection and a seamless s
               <button>
                 {" "}
                 <a
-                  href="https://react-redux-3-nu.vercel.app/"
+                  href="https://todo-list-main-mfy9.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
