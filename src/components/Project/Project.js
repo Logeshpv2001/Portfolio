@@ -8,7 +8,7 @@ import CRM from "../../images/CRM.png";
 import lvfood from "../../images/LVFood.png";
 // import Shopping from "../../images/Shoopingcart.png";
 import quizapp from "../../images/Quiz-App.png";
-import redux from "../../images/reactredux.png";
+import todo from "../../images/Todo-list.png";
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} arrow classes={{ popper: className }} />
@@ -185,7 +185,7 @@ registration and login processes, ensuring user data protection and a seamless s
           </div>
         </div>
         <div className="box">
-          <img src={redux} alt="" />
+          <img src={todo} alt="" />
 
           <div className="overlay">
             <h3>To-Do List Application</h3>
