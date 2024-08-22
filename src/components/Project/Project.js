@@ -7,7 +7,7 @@ import { styled } from "@mui/material/styles";
 import CRM from "../../images/CRM.png";
 import lvfood from "../../images/LVFood.png";
 // import Shopping from "../../images/Shoopingcart.png";
-import formik from "../../images/Formik.png";
+import quizapp from "../../images/Quiz-App.png";
 import redux from "../../images/reactredux.png";
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -37,7 +37,12 @@ export default function Project() {
 
           <div className="overlay">
             <h3>Customer Relationship Management </h3>
-           
+            <p>
+            Developed a specialized E-commerce platform for the textile industry with two distinct panels: an 
+Admin panel for managing products (adding and removing items) and a user interaction panel where 
+customers can register, log in, and make purchases. Implemented secure authentication for both 
+registration and login processes, ensuring user data protection and a seamless shopping experience. 
+            </p>
             <BootstrapTooltip title="Frontend source code">
               <button>
                 {" "}
@@ -90,12 +95,7 @@ export default function Project() {
                 </a>
               </button>
             </BootstrapTooltip>
-            <p>
-            Developed a specialized E-commerce platform for the textile industry with two distinct panels: an 
-Admin panel for managing products (adding and removing items) and a user interaction panel where 
-customers can register, log in, and make purchases. Implemented secure authentication for both 
-registration and login processes, ensuring user data protection and a seamless shopping experience. 
-            </p>
+           
           </div>
         </div>
         <div className="box">
@@ -103,6 +103,16 @@ registration and login processes, ensuring user data protection and a seamless s
 
           <div className="overlay">
             <h3>Food Delivery App</h3>
+            <p>
+            Developed a dynamic food delivery platform with React and Vite for the frontend, 
+            and Node.js, Express.js, and MongoDB for the backend. 
+            The platform features two distinct panels: a User panel for customers to register,
+             log in, browse food items (such as sandwiches, desserts, noodles), place orders,
+              and complete transactions through an integrated payment gateway; and an Admin panel 
+              where the admin can manage the menu by adding or removing products, track orders,
+               and update the delivery status. All order details are securely stored in MongoDB,
+                ensuring efficient order management and customer satisfaction. 
+            </p>
            
             <BootstrapTooltip title="Frontend source code">
               <button>
@@ -136,27 +146,22 @@ registration and login processes, ensuring user data protection and a seamless s
                 </a>
               </button>
             </BootstrapTooltip>
-            <p>
-            Developed a food delivery application using React.js, featuring a responsive and intuitive UI for 
-browsing restaurants, viewing menus, and placing orders. Implemented local state management for 
-dynamic user interactions and real-time updates. Enhanced user experience with search and filter 
-options, ensuring cross-platform compatibility. 
-            </p>
+            
           </div>
         </div>
         <div className="box">
-          <img src={formik} alt="" />
+          <img src={quizapp} alt="" />
 
           <div className="overlay">
-            <h3>Library Management</h3>
+            <h3>Quiz Web Application</h3>
             <p>
-            The MERN admin dashboard for a library management system that allows users to manage book and author details
+            Developed a responsive and user-friendly Quiz web application using React.js. The app allows users to customize their quiz experience by selecting criteria from a list of options. Users can then take the quiz, with their performance tracked and displayed on a real-time scoreboard. The application is designed with an intuitive interface to enhance user engagement and provide a seamless experience across various devices.
             </p>
             <BootstrapTooltip title="frontend source code">
               <button>
                 {" "}
                 <a
-                  href="https://github.com/Logeshpv2001/React-Formik-Validation-app.git"
+                  href="https://github.com/Logeshpv2001/Quiz-App-master.git"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -169,7 +174,7 @@ options, ensuring cross-platform compatibility.
               <button>
                 {" "}
                 <a
-                  href="https://poetic-tanuki-f61282.netlify.app/"
+                  href="https://quiz-app-lqzn.onrender.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
