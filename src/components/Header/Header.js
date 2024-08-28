@@ -7,7 +7,7 @@ function Header() {
   const github = "https://github.com/Logeshpv2001";
   const linkedIn = "https://www.linkedin.com/in/logesh-pv-340282272/";
   const resume =
-    "https://drive.google.com/file/d/1tb3umXjiDGps8ByBVrQ0tbQeQn-LyJGw/view?usp=sharing";
+    "https://drive.google.com/file/d/1UYs33x-RDqSFxuWAtdiFP6JzgEsPp2MD/view?usp=sharing";
 
   return (
     <div className="header-wraper" id="home">
